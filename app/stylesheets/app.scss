@@ -1,0 +1,20 @@
+$main-font-size: 17px;
+$main-line-height: 28px;
+$main-font-color: #323C46;
+$main-brand-color: #0A7BCC;
+
+// tools
+@import 'tools/_fonts';
+@import 'tools/_settings';
+@import 'tools/_normalize';
+
+// components
+@import 'components/_title';
+@import 'components/_button';
+
+// for views
+@import 'pages/homepage/_hero';
+@import 'pages/homepage/_duties';
+@import 'pages/homepage/_demands';
+@import 'pages/homepage/_conditions';
+@import 'pages/homepage/_footer';

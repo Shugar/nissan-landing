@@ -1,0 +1,30 @@
+.hero {
+  background: #C71444;
+  color: #FFF;
+}
+
+.hero .container {
+  padding: 140px 0;
+}
+
+.hero .logo {
+  position: absolute;
+  top: 0;
+  left: -150px;
+  height: 113px;
+}
+
+@media (max-width: 768px) {
+  .hero .container {
+    padding: 70px 24px;
+  }
+
+  .hero .logo {
+    position: absolute;
+    top: 0;
+    left: initial;
+    right: 16px;
+    height: 70px;
+    width: auto;
+  }
+}

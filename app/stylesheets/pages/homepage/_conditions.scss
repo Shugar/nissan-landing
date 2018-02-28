@@ -1,0 +1,23 @@
+.conditions {
+  background: url('../images/background.png') no-repeat center / cover;
+  color: #fff;
+}
+
+.conditions__subtitle {
+  margin-bottom: 16px;
+}
+
+.conditions__info {
+  padding-left: 25px;
+}
+
+.conditions__item {
+  font-weight: 300;
+  margin-bottom: 16px;
+  margin-left: 5px;
+
+  img {
+    margin-right: 10px;
+    margin-bottom: 3px;
+  }
+}

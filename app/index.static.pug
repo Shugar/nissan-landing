@@ -1,0 +1,72 @@
+doctype html
+html
+  head
+    title Nissan
+    include partials/head
+
+  body
+    .hero
+      .container
+        img.logo(src='./images/logo.png')
+        .call-to-action
+          .title <span>Открыта вакансия:</span><br/>Оператор производственной линии
+          a.button(href="#") Оставить заявку
+    .duties
+      .container
+        .title Обязанности
+        .duties__item
+          img.mark(src='./images/mark.svg')
+          | Предварительная подсборка основных узлов автомобиля;
+        .duties__item
+          img.mark(src='./images/mark.svg')
+          | Сборка автомобиля:
+        .duties__item.duties__item--sub
+          img.oval(src='./images/oval.svg')
+          | Установка деталей салона
+        .duties__item.duties__item--sub
+          img.oval(src='./images/oval.svg')
+          | Ходовой части
+        .duties__item.duties__item--sub
+          img.oval(src='./images/oval.svg')
+          | Двигателя с трансмиссией
+        .duties__item.duties__item--sub
+          img.oval(src='./images/oval.svg')
+          | Заправка рабочими жидкостями
+
+    .demands
+      .container
+        .title Требования
+        .demands__item
+          img(src='./images/red_oval.svg')
+          | Образование: <span>Среднее полное</span>
+        .demands__item
+          img(src='./images/red_oval.svg')
+          | Готовность работать в сменном графике
+        .demands__item
+          img(src='./images/red_oval.svg')
+          | Личные качества: <br />
+          .demands__qualities
+            | высокая организованность,
+            | ответственность,
+            | дисциплинированность,
+            | внимательность к деталям,
+            | исполнительность,
+            | строгое следование процедурам и инструкциям.
+
+    .conditions
+      .container
+        .title Условия:
+        .conditions__info
+          .conditions__subtitle График работы сменный:
+          .conditions__item
+            img(src='./images/oval_white.svg')
+            | неделя утро 7:25 – 16:00
+          .conditions__item
+            img(src='./images/oval_white.svg')
+            | неделя вечер 16:00 – 00:00.
+        a.button(href="#") Оставить заявку
+
+    .footer
+      .container
+        | © Nissan 2018
+

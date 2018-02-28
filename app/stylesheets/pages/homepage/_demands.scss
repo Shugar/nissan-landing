@@ -1,0 +1,21 @@
+.demands {
+  background: #000;
+  color: #fff;
+}
+
+.demands__item {
+  margin-bottom: 16px;
+
+  span {
+    font-weight: 300;
+  }
+
+  img {
+    margin-right: 16px;
+  }
+
+  .demands__qualities {
+    padding-left: 22px;
+    font-weight: 300;
+  }
+}
